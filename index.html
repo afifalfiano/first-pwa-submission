@@ -28,5 +28,20 @@
 
     <script src="js/materialize.min.js"></script>
     <script src="js/nav.js"></script>
+    <script>
+        if("serviceWorker" in navigator) {
+            window.addEventListener("load", function() {
+                navigator.serviceWorker
+                .register("/service-worker.js")
+                .then(function() {
+                    console.log("Daftar Berhasil");
+                }).catch(function() {
+                    console.log("Daftar Gagal");
+                })
+            })
+        } else {
+            console.log("ServiceWorker belum didukung browser ini.");
+        }
+    </script>
 </body>
 </html>
