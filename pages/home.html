@@ -63,7 +63,7 @@
         left: 0;
         bottom: 0;
         width: 100%;
-        height: 450px;
+        height: 350px;
     }
 
     .titlesosmed {
@@ -71,7 +71,7 @@
         text-transform: uppercase;
         color: white;
         font-weight: 500;
-        margin-top:1em;
+        margin-top:2em;
     }
 
     .center-img {
@@ -81,18 +81,17 @@
 
     .socialtitle{
         color: white;
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
     .iconSosmed:hover {
        transform: translateY(-10px);
        transition: .6s ease-in-out;
     }
 
-    .centerimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    .cardcenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .borderimg {
@@ -122,7 +121,7 @@
     <div class="col s12 m6 l6">
             <div class="container">
                 <h3 class="" >Muhammad Afif Alfiano Hermasyah</h1>
-                    <p>Saya adalah seorang developer di salah satu instansi di Yogyakarta. Selain bekerja saya juga masih menempuh pendidikan kuliah di salah satu sekolah tinggi management informatika di Yogyakarta.</p>
+                    <p>Saya adalah seorang developer di BSI UII, Yogyakarta. Selain bekerja saya juga masih menempuh pendidikan kuliah di STMIK AKAKOM Yogyakarta.</p>
 
                     <p>
                         Saya juga antusias dengan user interface dan user experience atau yang sering dikenal dengan UI/UX.
@@ -137,16 +136,14 @@
   </div>
 
 <div class="row" style="margin-top:-20px;">
-    <div class="col s12 m6 l6 ">
-        <div class="container">
-            <h3 >Yogyakarta, Indonesia.</h3>
-                <p>
-                    Yap tepat sekali saya berasal dari Yogyakarta dan sekarang pun masih di Yogyakarta.
-                </p>
-                <a href="../img//map-city.jpg">
-                    
-                <img src="../img/map-city.jpg" alt="Yogyakarta" class="responsive-img centerimg borderimg" width="250">  
-                </a>          
+    <div class="col s12 m6 l6 cardcenter" style="background-image: url('../img/map-city.jpg'); background-size: contain;background-position: center; height: 49vh; width: 50%;">
+        <div class="container ">
+            <div class="card-panel">
+                <h3 class="card-title">Yogyakarta, DIY, Indonesia.</h3>
+                <span class="black-text">Yap tepat sekali saya berasal dari Yogyakarta dan sekarang pun masih di Yogyakarta.
+                </span>
+                
+              </div>        
         </div>
     </div>
     <div class="col s12 m6 l6 teal lighten-2">
@@ -159,13 +156,30 @@
         <h1 class="titleProfile">WHEN?</h1>
     </div>
     <div class="col s12 m6 l6">
+        <div class="container">
+            <h3 class="" >SMK Mengajariku Berpikir Kedepan</h1>
+                <p>Saya adalah seorang lulusan dari SMK N 2 Yogyakarta yang mana tujuan setelah lulus adalah bekerja.</p>
 
+                <p>
+                    Waktu SMK itulah saya mulai mengerti ternyata Dunia IT itu seluas ini dan pasarnya yang cukup besar.
+                </p>
+                
+                <blockquote>
+                    Belajarlah!
+                </blockquote>
+        </div>
     </div>
 </div>
 
 <div class="row" style="margin-top:-20px;">
     <div class="col s12 m6 l6">
-        
+        <div class="container center" style="font-weight: bolder; margin-top: 5em;">
+            <h3 class="" >KEREN!</h3>
+            <h3 class="" >MANFAAT!</h3>
+                <h3>
+                    MAJU TERUS!
+                </h3>
+        </div>
     </div>
     <div class="col s12 m6 l6 deep-orange lighten-2">
         <h1 class="titleProfile">WHY?</h1>
@@ -177,36 +191,48 @@
         <h1 class="titleProfile">HOW?</h1>
     </div>
     <div class="col s12 m6 l6">
+        <div class="container">
+            <h3 class="" >10 MENIT SEHARI LEBIH BAIK</h1>
+                <p>Saya selalu berusaha untuk setiap hari melakukan aktivitas koding supaya melatih kemampuan saya dalam koding.</p>
+
+                <p>
+                    Terkadang 10 menit sehari itu lebih berharga asalkan konsisten. Jadi saya memilki opsi ini untuk terus melatih skill saya
+                </p>
+                
+                <blockquote>
+                    Jangan Malas! Inget, diluar sana ada orang yang sedang berjuang untuk posisimu!
+                </blockquote>
+        </div>
     </div>
 </div>
 
-<div class="row" style="margin-top:-20px;">
+<div class="row" style="margin-top:-20px; margin-bottom: 0;">
     <div class="col s12 m12 l12 blue-grey">
         <div class="sosmed">
-            <h2 class="titlesosmed">Follow My Social Media</h2>
-            <div class="row" style="margin-top: 4em;">
+            <h4 class="titlesosmed">Follow My Social Media</h4>
+            <div class="row" style="margin-top: 5em;">
                 <div class="col s12 m3 l3 center-align">
                     <a href="http://github.com/afifalfiano" class="iconSosmed">
-                        <img src="../img/social_media/github.png" alt="Yogyakarta" class="center-img responsive-img iconSosmed" width="150">
+                        <img src="../img/social_media/github.png" alt="Yogyakarta" class="center-img responsive-img iconSosmed" width="100">
                     </a>
                     <p class="socialtitle">@AfifAlfiano</p>
                 </div>
                 <div class="col s12 m3 l3 center-align">
                     <a href="https://www.instagram.com/afifalfiano8/" class="iconSosmed">
-                        <img src="../img/social_media/instagram.png" alt="Yogyakarta" class="center-img responsive-img center-align iconSosmed" width="150">
+                        <img src="../img/social_media/instagram.png" alt="Yogyakarta" class="center-img responsive-img center-align iconSosmed" width="100">
                     </a>
                     <p class="socialtitle">@AfifAlfiano8</p>
                     
                 </div>
                 <div class="col s12 m3 l3 center-align">
                     <a href="https://medium.com/@afifalfiano/" class="iconSosmed">
-                        <img src="../img/social_media/medium.png" alt="Yogyakarta" class="center-img responsive-img center-align iconSosmed" width="205">
+                        <img src="../img/social_media/medium.png" alt="Yogyakarta" class="center-img responsive-img center-align iconSosmed" width="140">
                     </a>
                     <p class="socialtitle">@AfifAlfiano</p>
                 </div>
                 <div class="col s12 m3 l3 center-align">
                     <a href="https://twitter.com/afifalfiano8" class="iconSosmed">
-                        <img src="../img/social_media/twitter.png" alt="Yogyakarta" class="center-img responsive-img center-align iconSosmed" width="150">
+                        <img src="../img/social_media/twitter.png" alt="Yogyakarta" class="center-img responsive-img center-align iconSosmed" width="100">
                     </a>
                     <p class="socialtitle">@AfifAlfiano8</p>
                 </div>

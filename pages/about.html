@@ -1,2 +1,74 @@
-<h2>Tentang Saya</h2>
-<p>Saya adalah programmer masa depan.</p>
+<style>
+    .profile {
+        width: 100%;
+        height: 50vh;
+        padding: 4em;
+        text-align: center;
+    }
+
+    .profileava {
+        border-radius: 50%;
+        border: 3px solid rgb(202, 202, 202);
+    }
+
+    .modal {
+        width: 60vw;
+        height: auto;
+    }
+
+    .styleQuotes {
+        margin-top: 2em;
+        font-style: italic;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    img:hover {
+        box-shadow: 0px 2px 7px grey;
+        transform: translateY(-5px);
+        transition: .5s ease;
+    }
+</style>
+<div class="row">
+    <div class="col s12 m12 l12 light-blue">
+        <div class="profile">
+        <img src="../img/myprofile.jpg" alt="Afif Alfiano" width="150" class="responsive-img profileava">
+        <h5 class="white-text" style="margin-bottom: 5px;">Afif Alfiano</h5>
+        <span class="white-text" style="font-style: italic;">Developer</span><br>
+        <span class="white-text" style="font-style: italic;">Yogyakarta, DIY, Indonesia</span>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="container">
+        <div style="display: flex; align-items: center;justify-content: center;">
+        <button data-target="modal1" class="waves-effect waves-light btn generate modal-trigger">Generate Quotes</button>
+        </div>
+    </div>
+</div>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h5 class="center" style="margin-bottom: 1em;">Quotes of the Days!</h5>
+      <hr>
+      <blockquote>
+      <div id="quotes" class="styleQuotes">"Tetap Semangat! Jangan Pernah Menyerah!"</div>
+      </blockquote>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-close waves-effect waves-green btn-flat center">Oke</a>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="container">
+          <blockquote class="flow-text">Tetaplah Belajar Meskipun Tidak Paham!</blockquote>
+          <p>
+              Terkadang saya juga pernah mengalami seperti itu tapi yang namanya manusia kita harus tetap belajar meskipun belum paham. Artinya kalaupun kita belum bisa menjelaskan secara terperinci paling tidak kita mempunyai ilmu seperti 'Nah, aku dulu pernah nih buat seperti ini!'. Bisa jadi ide atau pengalaman kita bermanfaat buat orang lain.
+          </p>
+          <p>
+              #Belajar #Developer #Bermanfaat
+          </p>
+      </div>
+  </div>
