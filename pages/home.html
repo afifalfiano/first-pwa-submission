@@ -89,13 +89,47 @@
     }
 
     .cardcenter{
-        display: flex;
         justify-content: center;
         align-items: center;
+        background-image: url('../img/map-city.jpg'); 
+        background-size: contain;
+        background-position: center; 
+        height: 47.2vh;
     }
 
     .borderimg {
         border: 2px solid black;
+    }
+    
+    .centercard {
+        transform: translateY(5em);
+    }
+
+    .centertext {
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .centercard {
+            transform: translateY(40px);
+        }
+        .centertext {
+            transform: translateY(-40px);
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        .titleProfile {
+            height: 60vh;
+        }
+
+        .cardcenter {
+            height: 69.3vh;
+        }
+
+        .centercard {
+            transform: translateY(90px);
+        }
     }
 </style>
 <div class="carousel carousel-slider center"">
@@ -136,9 +170,9 @@
   </div>
 
 <div class="row" style="margin-top:-20px;">
-    <div class="col s12 m6 l6 cardcenter" style="background-image: url('../img/map-city.jpg'); background-size: contain;background-position: center; height: 49vh; width: 50%;">
+    <div class="col s12 m6 l6 cardcenter">
         <div class="container ">
-            <div class="card-panel">
+            <div class="card-panel centercard">
                 <h3 class="card-title">Yogyakarta, DIY, Indonesia.</h3>
                 <span class="black-text">Yap tepat sekali saya berasal dari Yogyakarta dan sekarang pun masih di Yogyakarta.
                 </span>
@@ -173,12 +207,10 @@
 
 <div class="row" style="margin-top:-20px;">
     <div class="col s12 m6 l6">
-        <div class="container center" style="font-weight: bolder; margin-top: 5em;">
-            <h3 class="" >KEREN!</h3>
-            <h3 class="" >MANFAAT!</h3>
-                <h3>
-                    MAJU TERUS!
-                </h3>
+        <div class="container centertext" style="font-weight: bolder; margin-top: 5em;">
+            <h3>KEREN!</h3>
+            <h3>MANFAAT!</h3>
+            <h3>MAJU TERUS!</h3>
         </div>
     </div>
     <div class="col s12 m6 l6 deep-orange lighten-2">
