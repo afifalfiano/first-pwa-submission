@@ -1,4 +1,4 @@
-const CACHE_NAME = "portfolio-v2";
+const CACHE_NAME = "portfolio-v3";
 
 var urlsToCache = [
     "/",
@@ -8,7 +8,14 @@ var urlsToCache = [
     "/pages/home.html",
     "/pages/contact.html",
     "/pages/project.html",
-    "/css/font-awesome.css",
+    "/css/font-awesome/fontawesome-webfont.eot",
+    "/css/font-awesome/fontawesome-webfont.svg",
+    "/css/font-awesome/fontawesome-webfont.ttf",
+    "/css/font-awesome/fontawesome-webfont.woff",
+    "/css/font-awesome/fontawesome-webfont.woff2",
+    "/css/font-awesome/FontAwesome.otf",
+    "/css/font-awesome/font-awesome.css",
+    "/css/font-awesome/font-awesome.min.css",
     "/css/materialize.min.css",
     "/js/materialize.min.js",
     "/js/nav.js",
@@ -27,6 +34,8 @@ var urlsToCache = [
     "/img/project/image4.jpg",
     "/img/project/image5.jpg",
     "/img/project/image6.jpg",
+    "/manifest.json",
+    "/icon.png"
 ];
 
 

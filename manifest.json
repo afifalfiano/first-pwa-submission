@@ -5,6 +5,7 @@
     "description": "Aplikasi Portfolio",
     "start_url": "/index.html",
     "display": "standalone",
+    "scope": "/",
     "background_color": "#00897B",
     "theme_color": "#00897B",
     "icons": [
