@@ -36,7 +36,8 @@ var urlsToCache = [
     "/img/project/image6.jpg",
     "/manifest.json",
     "/icon.png",
-    "/apple-touch-icon.png"
+    "/apple-touch-icon.png",
+    "/icon-512x512.png"
 ];
 
 
