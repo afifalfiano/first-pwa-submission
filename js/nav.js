@@ -62,21 +62,20 @@ function loadPage(page) {
         content.innerHTML = xhttp.responseText;
         if (page !== 'home' || page !== '') {
           footer.innerHTML = `
-        <style>
-        .page-footer {
-          padding-top: 0;
-          width: 100%;
-        }
-
-        </style>     
-      <footer class="page-footer  teal darken-3">
-      <div class="footer-copyright teal darken-3">
-        <div class="container">
-        © 2020 Copyright all reserved by Afif Alfiano
-        <a class="grey-text text-lighten-4 right" id="name" href="#home">Afif Alfiano</a>
-        </div>
-      </div>
-    </footer>
+          <style>
+          .page-footer {
+            padding-top: 0;
+            width: 100%;
+          }
+          </style>     
+          <footer class="page-footer  teal darken-3">
+            <div class="footer-copyright teal darken-3">
+              <div class="container">
+              © 2020 Copyright all reserved by Afif Alfiano
+              <a class="grey-text text-lighten-4 right" id="name" href="#home">Afif Alfiano</a>
+              </div>
+            </div>
+          </footer>
           `;
         }
         if (page === 'home') {
